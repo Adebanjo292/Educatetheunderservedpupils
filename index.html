@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Winning Team Learning Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Section -->
+    <section class="login-section" id="loginSection">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="studentName" placeholder="Enter your name" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section" id="welcomeSection" style="display:none;">
+        <h2>Welcome, <span id="studentWelcome"></span>!</h2>
+        <button id="accessCoursesButton">Access Courses</button>
+        <button id="logoutButton">Logout</button>
+    </section>
+
+    <!-- Courses Section (Initially Hidden) -->
+    <section class="courses-section" id="coursesSection" style="display:none;">
+        <h2>PRIMARY SECTION</h2>
+        <p>SELECT YOUR CLASS</p>
+        <div class="courses">
+            <div class="course">
+                <h3>PRIMARY 1</h3>
+                <a href="materials/class1.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>PRIMARY 2</h3>
+                <a href="materials/class2.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>PRIMARY 3</h3>
+                <a href="materials/class3.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>PRIMARY 4</h3>
+                <a href="materials/class4.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>PRIMARY 5</h3>
+                <a href="materials/class5.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>PRIMARY 6</h3>
+                <a href="materials/class6.pdf" download>Download Materials</a>
+            </div>
+        </div>
+
+        <!-- Secondary Section -->
+        <h2>SECONDARY SECTION</h2>
+        <p>SELECT YOUR CLASS</p>
+        <div class="courses">
+            <div class="course">
+                <h3>JSS 1</h3>
+                <a href="materials/jss1.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>JSS 2</h3>
+                <a href="materials/jss2.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>JSS 3</h3>
+                <a href="materials/jss3.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>SS 1</h3>
+                <a href="materials/ss1.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>SS 2</h3>
+                <a href="materials/ss2.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h3>SS 3</h3>
+                <a href="materials/ss3.pdf" download>Download Materials</a>
+            </div>
+        </div>
+
+        <!-- A-Level Section -->
+        <h2>A-LEVEL COURSES</h2>
+        <p>SELECT YOUR COURSE BY CATEGORY</p>
+        <div class="courses">
+            <div class="course">
+                <h4>Physics</h4>
+                <a href="materials/alevel_physics.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Chemistry</h4>
+                <a href="materials/alevel_chemistry.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Biology</h4>
+                <a href="materials/alevel_biology.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Mathematics</h4>
+                <a href="materials/alevel_math.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Accounting</h4>
+                <a href="materials/alevel_accounting.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Economics</h4>
+                <a href="materials/alevel_economics.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Business Studies</h4>
+                <a href="materials/alevel_business.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Literature</h4>
+                <a href="materials/alevel_literature.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>History</h4>
+                <a href="materials/alevel_history.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Government</h4>
+                <a href="materials/alevel_government.pdf" download>Download Materials</a>
+            </div>
+            <div class="course">
+                <h4>Religious Studies</h4>
+                <a href="materials/alevel_religiousstudies.pdf" download>Download Materials</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Winning Team Learning Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
